@@ -1,0 +1,24 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+
+  background-image: url("/project/location/src/images/background-image.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.box p {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  white-space: nowrap;
+}
+
+.locations-text {
+  font-size: 80px;
+}
