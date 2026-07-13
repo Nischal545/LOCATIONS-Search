@@ -3,6 +3,8 @@ import App from '../../App.jsx'
 import './style.css';
 import { useRef } from "react";
 import LocationWord from "../LocationWord.jsx";
+import {Link, BrowserRouter, Routes, Route} from 'react-router-dom';
+import LoginPage from '../LoginPage/LoginPage.jsx'
 
 
 function Start () {
@@ -16,7 +18,11 @@ function Start () {
             <div className="container">
                 <div className="box">
                     <h3>{welcomeText}<span style={{fontSize: '80px'}}> <LocationWord />
-                    </span><p><a>CLICK HERE</a></p></h3>
+                    </span>
+                    <p>
+                        <Link to = '/loginpage'>Click Here</Link>
+                    </p>
+                    </h3>
                 </div>
             </div>
         

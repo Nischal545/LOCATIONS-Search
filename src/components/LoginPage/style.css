@@ -1,0 +1,16 @@
+.getin-container {
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.getin{
+    height: 100%;
+    width: 50%;
+}
+
+.getin button {
+    height: 80px;
+    width: 80px;
+}

@@ -1,16 +1,25 @@
 // import './App.css';
 import Start from './components/Landing/Start';
-
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LoginPage from './components/LoginPage/LoginPage';
+ 
 function App () {
 
-    // var colors = ['red', 'azure', 'blue', 'green', 'yellow', 'skyblue', 'grey', 'white', 'pink']
-
-    // const p = document.getElementsByClassName('locations-text');
-    // const text = p.textContent;
-
-    // console.log(text)
     return (
-        <Start/>
+        // <>
+
+        <BrowserRouter>
+            
+
+            <Routes>
+                <Route path='/' element = {<Start/>}/>
+                <Route path='/loginpage' element ={<LoginPage/>}/>
+            </Routes>
+        </BrowserRouter>
+        
+        
+
+        
     )
 }
 
