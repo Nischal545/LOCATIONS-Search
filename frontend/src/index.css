@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yuyu&display=swap');
 
+
+*{
+  font-family: 'Yuyu', sans-serif;
+}
 body, html {
 
-  font-family: 'Yuyu', sans-serif;
+  /* font-family: 'Yuyu', sans-serif; */
   font-style: normal;
   height: 100%;
   overflow: hidden;

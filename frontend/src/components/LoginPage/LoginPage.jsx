@@ -8,8 +8,12 @@ function LoginPage() {
         <>
             <div className="getin-container">
                 <div className="getin">
-                    <button id='signup'>SignUp</button>
-                    <button id='login'>Login</button>
+                    <h2 className="titleName">{<LocationWord/>}</h2>
+                    <div className="buttons">
+                        <button id='signup'>SIGNUP</button>
+                        <button id='login'>LOGIN</button>
+                    </div>
+                    
                 </div>
             </div>
             

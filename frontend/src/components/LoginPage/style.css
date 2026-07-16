@@ -1,0 +1,40 @@
+.getin-container{
+    height: 100%;
+    /* background-color:rgb(245, 24, 24); */
+    overflow: hidden;
+}
+
+.getin{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    height: fit-content;
+}
+
+.getin .titleName{
+    height:fit-content;
+    font-size: 40px;
+    
+}
+
+
+
+.getin button{
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 12.5px 30px;
+    border: 0;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.getin button:hover{
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
