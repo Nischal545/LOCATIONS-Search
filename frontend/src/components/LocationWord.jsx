@@ -10,7 +10,18 @@ function LocationWord() {
     const modifiedLastWelcomeText = lastWelcomeText.split("").map((letter, index)=>(
         <span key={index} style={{color: colors[index % colors.length]}}>{letter}</span>
     ))
-    return modifiedLastWelcomeText;
+    return(
+        <div style = {
+            {   display: 'inline-block',
+                height: 'fit-content',
+                fontSize: '40px',
+                backgroundColor: 'black',
+                cursor: 'pointer'
+            }
+        }>
+            {modifiedLastWelcomeText}
+        </div>
+    ) 
 }
 
 export default LocationWord;

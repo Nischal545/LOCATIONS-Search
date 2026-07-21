@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
+    'rest_framework',
+
+    'apps',
 ]
 
 MIDDLEWARE = [
@@ -128,7 +131,6 @@ STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
     "https://localhost:5173",
-    "https://127.0.0.1:5173",
 ]
 
 # CORS_ALLOW_CREDENTIALS == True;

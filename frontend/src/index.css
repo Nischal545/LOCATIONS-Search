@@ -12,8 +12,15 @@ body, html {
   overflow: hidden;
 }
 
-#root {
-  height: 100%;
-  overflow: hidden;
-  margin: 0;
+:root {
+  --header-min-height: 70px;
+  --footer-min-height: 60px;
+  --global-padding:20px;
+  --border-margin: 24px;
+
+  /* Shared base theme colors */
+  --color-blue: #3b82f6;
+  --color-yellow: #eab308;
+  --color-purple: #a855f7;
+  --color-green: #22c55e;
 }
